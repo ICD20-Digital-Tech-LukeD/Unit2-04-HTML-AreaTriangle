@@ -1,4 +1,25 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: grey;
+}
+p {
+  color: white;
+  font-weight: bold;
+}
+h2 {
+  color: white;
+  font-weight:bold;
+}
+label {
+  color:white;
+  font-weight:bold;
+}
+button {
+  color: white;
+  background-color: darkgrey;
+  font-weight: bold;
+}

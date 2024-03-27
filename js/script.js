@@ -1,5 +1,15 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+
+
+document.getElementById("triangleForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+// this gets the values of length and width input fields
+var height = parseFloat(document.getElementById("height").value);
+var base = parseFloat(document.getElementById("base").value);
+
+// used to calculate the area of the triangle
+var area = 0.5 * height * base;
+
+    // this displays the result on the webpage
+    document.getElementById("result").innerHTML = "The area of the triangle is: " + area;
+});
